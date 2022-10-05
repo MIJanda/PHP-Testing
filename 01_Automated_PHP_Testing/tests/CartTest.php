@@ -1,6 +1,6 @@
 <?php
 
-use Cart;
+use App\Cart;
 
 use PHPUnit\Framework\TestCase;
 
