@@ -11,4 +11,10 @@ class Cart
     {
         return $this->price * self::$tax;
     }
+
+    public function addToPrice(int $amount): float 
+    {
+        $this->price += $amount;
+
+    }
 }
